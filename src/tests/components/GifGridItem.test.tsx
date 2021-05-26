@@ -6,7 +6,7 @@ describe('GifGridItem tests', () => {
     const url = 'url';
     const title = 'title';
     
-    const wrapper = shallow(<GifGridItem url={ url } title={ title }></GifGridItem>);
+    const wrapper = shallow(<GifGridItem url={ url } title={ title } />);
     const img = wrapper.find('img');
 
     test('should render without errors', () => {
