@@ -24,9 +24,9 @@ const AddCategoryField = ({ setCategories }: AddCategoryFieldProps) => {
     return (
         <form onSubmit={ handleOnSubmit }>
             <input 
+                onChange={ handleOnChange }
                 type='text'
                 value={ inputValue }
-                onChange={ handleOnChange }
             />
         </form>
     );

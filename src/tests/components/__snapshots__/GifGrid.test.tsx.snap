@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGrid tests should render without errors 1`] = `
+<div>
+  <h3>
+    xmen
+  </h3>
+  loading...
+  <ol
+    className="grid"
+  />
+</div>
+`;
